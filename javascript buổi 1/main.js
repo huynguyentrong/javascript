@@ -1,8 +1,9 @@
+bài 1 :
 var luong_1_ngay = 100000;
 var so_ngay = 30;    
 var toTal = luong_1_ngay * so_ngay;
 console.log("Tiền lương nhân viên trong 30 ngày :" +toTal);
-
+bài 2:
 var Number_1 = 1;
 var Number_2 = 2;
 var Number_3 = 3;
@@ -10,7 +11,7 @@ var Number_4 = 4;
 var Number_5 = 5;
 var toTal = (Number_1 + Number_2 + Number_3 + Number_4 + Number_5) / 5;
 console.log(toTal);
-
+bài 3:
 function chuyenDoi(Tien){
     var tienChuyenDoi = Tien*23000;
     return tienChuyenDoi; 
@@ -26,13 +27,14 @@ document.getElementById('btnHienThi').onclick = function(event){
 
     document.getElementById('txtTien').innerHTML = tienChuyenDoi;
 }
+bài 4:
 var chieudai = 5;
 var chieurong = 5;
 var chuvi = (chieudai) + (chieurong);
 var dientich = chieudai * chieurong;
 console.log(chuvi);
 console.log(dientich);
-
+bài 5:
 var n = 12;
 
 var hangchuc = Math.floor(n %10);
